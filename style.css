@@ -13,7 +13,7 @@ body{
 
 }
 .profile{
-    width: 100%;
+    width: 50%;
 
     padding-bottom: 80%;
         
@@ -31,7 +31,6 @@ img{
     width: 60%;
     height: 50vh;
     margin-left: 20%;
-   
     overflow: scroll;
     
 
@@ -89,42 +88,71 @@ img{
     width: 60%;
     height:40%;
     margin-left: 20%;
+    margin-top: 5%;
+    padding-top: 5%;
 
     padding-bottom: 5%;
     
 
 }
+
+ 
 .arbetslivs ol{
     width: 60%;
     height:40%;
+    margin-top: 4%;
+    padding-top: 5%;
+    
+    
 
-    padding-bottom: 5%;
+
+}
+#ar1{
+    padding-left: 20%;
+}
+#ar2{
+    padding-left: 20%;
+}
+#er{
+    width: 60%;
+    height:40%;
+    margin-top: 4%;
+padding-left: 20%;
+}
+#er1{
+    padding-left: 20%;
+    
+
 }
 #Studieerfarenhet::-webkit-scrollbar {
     width: 0;
 }
-#Studieerfarenhet h2{
-    margin-bottom: 10%;
-    padding-bottom: 2%;
-    padding-top: 5%;
+#min{
+   
     margin-left: 20%;
     
 
 }
-#info{
+#Studieerfarenhet ul{ 
     margin-left: 20%;  
+    
 }
 #Studieerfarenhet ol{
     margin-bottom: 10%;
     padding-bottom: 2%;
-    padding-top: 10%;
+    padding-top: 1%;
     margin-left: 20%;
+    
 
 }
-#Studieerfarenhet h3{
+#int{
+    padding-left: 20%;
+    margin-top: 20%; 
+}
+#Studieerfarenhet ul{
     margin-bottom: 10%;
     padding-left: 2%;
-    padding-top: 10%;
+    padding-top: 1%;
     margin-left: 20%;
 
 }
@@ -135,15 +163,17 @@ header {
     padding: 20px; 
     text-align: center; /* Centrerar texten i header */
 }
+/*
 nav ul { 
     list-style: none; 
     margin: 0; 
     padding: 0; 
 }
-nav ul li { /* Listaobjekt i navigationsmenyn */
-    display: inline-block; /*  inline-block för att styra dem bredvid varandra */
+nav ul li { /* Listaobjekt i navigationsmenyn 
+    display: inline-block; /* inline-block för att styra dem bredvid varandra 
     margin: 0 10px; 
 }
+*/
 nav a { 
     text-decoration: none; /* ta bort länker*/
     color: #fff; 
@@ -156,8 +186,10 @@ section { /* Ett avsnitt i huvuddelen av innehållet */
     padding: 20px; 
     margin-bottom: 20px; 
     border-radius: 5px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
 }
+
 img { /* Bild på sidan */
     max-width: 100%; 
     height: auto; 
@@ -188,5 +220,6 @@ footer { /* Sidans fotnot */
 .social Linkedin:hover {
     transform: rotate(360deg);
 }
+
 
 
