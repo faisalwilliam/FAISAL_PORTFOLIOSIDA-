@@ -23,7 +23,9 @@ body{
 }
 img{
     width: 60%;
-    height: 40%
+    height: 40%;
+    padding-top: 5%; 
+    
     
   }
 /*  Stylar sektionen för profilinformation */
@@ -31,7 +33,8 @@ img{
     width: 60%;
     height: 50vh;
     margin-left: 20%;
-    overflow: scroll;
+    
+
     
 
  font-family: "Edu AU VIC WA NT Guides", cursive;
@@ -67,7 +70,8 @@ img{
     height:40%;
 
     padding-bottom: 5%;
-    
+
+     padding-top: 5%; 
     
     
 }
@@ -75,6 +79,8 @@ img{
 #m2{
     width: 60%;
     height: 40%;
+    padding-top: 5%; 
+
     
     
     
@@ -82,18 +88,6 @@ img{
 }
 @media only screen and (max-width:90px) {
     .profile-info {}
-}
-
-.arbetslivs h4{
-    width: 60%;
-    height:40%;
-    margin-left: 20%;
-    margin-top: 5%;
-    padding-top: 5%;
-
-    padding-bottom: 5%;
-    
-
 }
 
  
@@ -127,6 +121,9 @@ padding-left: 20%;
 #Studieerfarenhet::-webkit-scrollbar {
     width: 0;
 }
+#Arduino{
+   padding-top: 5%; 
+}
 #min{
    
     margin-left: 20%;
@@ -147,7 +144,7 @@ padding-left: 20%;
 }
 #int{
     padding-left: 20%;
-    margin-top: 20%; 
+    margin-top: 5%; 
 }
 #Studieerfarenhet ul{
     margin-bottom: 10%;
@@ -162,21 +159,28 @@ header {
     color: #fff; 
     padding: 20px; 
     text-align: center; /* Centrerar texten i header */
+    position: fixed;
+    width: 100%;
+    
 }
 /*
-nav ul { 
-    list-style: none; 
-    margin: 0; 
-    padding: 0; 
-}
-nav ul li { /* Listaobjekt i navigationsmenyn 
-    display: inline-block; /* inline-block för att styra dem bredvid varandra 
-    margin: 0 10px; 
+nav a { 
+    text-decoration: none; /* ta bort länker
+    color: #fff; 
 }
 */
-nav a { 
-    text-decoration: none; /* ta bort länker*/
-    color: #fff; 
+.social a {
+    color: rgb(77, 66, 225);
+    font-size: 1.9cm;
+    padding-right: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 3s;
+    display: inline-block;
+    transition: 2s;
+    margin-left: 50px;
+  
+
 }
 main {
     padding: 20px; 
@@ -189,7 +193,12 @@ section { /* Ett avsnitt i huvuddelen av innehållet */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     
 }
+#Hotelphoto{
 
+ padding-left: 20%;
+    margin-top: 10%; 
+    color: grey;
+}
 img { /* Bild på sidan */
     max-width: 100%; 
     height: auto; 
@@ -205,21 +214,8 @@ footer { /* Sidans fotnot */
     bottom: 0; 
     width: 100%; /* Gör fotnoten lika bred som skärmen */
 }
-.social {
-    color: rgb(77, 66, 225);
-    font-size: 1.9cm;
-    padding-right: 30px;
-    margin-right: 10px;
-    cursor: pointer;
-    transition: 3s;
-    display: inline-block;
-    transition: 2s;
-    margin-left: 50px;
-}
 
-.social Linkedin:hover {
-    transform: rotate(360deg);
-}
+
 
 
 
