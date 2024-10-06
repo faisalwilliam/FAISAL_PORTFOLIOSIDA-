@@ -211,6 +211,7 @@ section { /* Ett avsnitt i huvuddelen av innehållet */
     padding-top: 2%;
     
 }
+
 img { /* Bild på sidan */
     max-width: 100%; 
     height: auto; 
@@ -219,6 +220,7 @@ img { /* Bild på sidan */
     box-shadow: 00 20px rgb(37,73 ,214,0.18);
     border-radius: 20px;
 }
+
 footer { /* Sidans fotnot */
     background-color: #333; 
     color: #fff; 
